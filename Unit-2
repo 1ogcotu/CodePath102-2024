@@ -1,1 +1,25 @@
+### Unit 2 Objective: WHat I gathered is that for Unit 2 the focus was endpoint monitoring. Our objective was to learn about HIDS, HIPS, Winodwos & Linux Event Logging, and finally
+ending with figuring out who tampered with the file on our machine. 
+
+
+### What I Learned:
+
+  ### In this unit I learned about systemctl, the HIDS Linux Audit Daemon (auditd). 
+  ### I learned how to install Audit on a VM
+  ### How to write Audit Rules to alert on file modification 
+  ### How to analyze /var/log events for audit findings in Linux
+  ### How to write an Audit Rule w/ different watch permissions for a new file. 
+  ### Further, I was able to imporve upon my knowledge and technical experience with Vim.
+
+
+  ### I created a new file with touch <file_nameL.txt and then used vi <file_name>.txt to edit the file I created with the Vim text editor.
+  ### I edited the Audit Rules by editing the "/etc/audit/rules.d/audit.rules" file
+  ### Using the format -w <file path of file to write rules to> -p <options> -k <filter name>
+  ### Ensured we created the changes by viewing our logs "udo vi /var/log/audit/audit.log"
+  ### Filtered the logs by using "sudo ausearch -ts today -k <filter_name>"
+
+
+
+
+  ### How to launch attacks on the protected files and use Audit to identify the altered files and which attacks made the changes.
 
