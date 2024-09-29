@@ -1,0 +1,16 @@
+## In Unit 1 we were employees of a SOC tasked to track down suspicious behavior within in the company. Our objective was to find the rogue user. 
+
+### What I learned
+
+    #### Fromt this Unit I learned how to anlayze a .pcap file using Wireshark and filtering, Use DHCP logs to correlate an IP address to a host device, and 
+    Identify which user was logged in to a host device using account security logs.
+
+    ### Within this Lab I was able to begin to familiarize myself with using Azure Labs to connect to a Linux VM and perform the activities to disacover the rogue host.
+
+    ### Step 1: For me was opening the .pcap file in walmart, and then filtering for 'FROM" in order to filter the sender of mail. 
+
+    ### Step 2: For me was taking note of the user's IP and notating the user-name as well. 
+
+    ### Step 3: For me was then analyzing the DHCP log to find the user-name that correlated to that found in the .pcap file in Wireshark. 
+
+    ### Using this information I was then able to look through the security logs and find the HOST NAME of the Rogue User. 
